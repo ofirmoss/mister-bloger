@@ -1,0 +1,35 @@
+@import '_vars.css';
+@import '_fonts.css';
+@import '_nav.css';
+@import '_articles.css';
+@import '_footer.css';
+
+
+
+body{
+    background: #ffffff;
+    /* font-family: Lato-Regular; */
+}
+
+header{
+    background: var(--nav-background-color);
+    border-bottom: inset 5px #1d1d1d;  
+    /* margin-bottom: 80px; */
+}
+
+.nav-container{
+    max-width:  var(--container-width);
+    margin: 0 auto;
+    height: 130px;
+    /* border: solid 1px #e1e0e0;         */
+}
+
+.page-container{
+    max-width:  var(--container-width);
+    margin: 0 auto;
+    margin-bottom: 6px;
+}
+
+section{
+    padding: 0;
+}
