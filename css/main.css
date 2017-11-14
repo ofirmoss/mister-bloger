@@ -3,6 +3,7 @@
 @import "_nav.css";
 @import "_articles.css";
 @import "_footer.css";
+@import "_modal.css";
 
 body {
     background: #ffffff;
@@ -34,6 +35,10 @@ section {
 }
 
 @media (max-width: 740px) {
+    .articles {
+        padding-top: 30px;
+    }
+
     .article {
         padding: 10px;
     }
@@ -54,14 +59,14 @@ section {
         justify-content: center;
         align-items: center;
         justify-content: space-between;
-        min-height: 550px;
-        margin-bottom: 0px;
+        min-height: 510px;
+        margin-bottom: 40px;
         /* width: 500px;         */
     }
     .article img {
         width: 100%;
         height: 100%;
-        margin-bottom: 20px;
+        margin-bottom: 0px;
     }
     .details {
         padding: 0px;
@@ -113,6 +118,12 @@ section {
     .page-nav button {
         font-size: 12pt;
     }
+
+    .footer-container{
+        padding: 20px 0 0;
+        height: 140px;
+    }
+
     .footer-container p {
         font-size: 10pt;
         padding: 0 20px;
