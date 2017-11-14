@@ -109,8 +109,12 @@ nav button:hover{
 
 .dropdown-content a:hover {background-color: #2c2b2b}
 
-.dropdown:active .dropdown-content {
+.dropdown:hover .dropdown-content {
     display: block;
+}
+
+.dropdown::after .dropdown-content {
+    display: none;
 }
 
 .dropdown:hover .dropbtn {
