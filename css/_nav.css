@@ -113,7 +113,7 @@ nav button:hover{
     display: block;
 }
 
-.dropdown::after .dropdown-content {
+.dropdown:hover .dropdown-content {
     display: none;
 }
 
