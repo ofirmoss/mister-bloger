@@ -109,7 +109,7 @@ nav button:hover{
 
 .dropdown-content a:hover {background-color: #2c2b2b}
 
-.dropdown:hover .dropdown-content {
+.dropdown:active .dropdown-content {
     display: block;
 }
 

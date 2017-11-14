@@ -47,8 +47,17 @@ footer{
     transition: all 0.45s ease;
 }
 
-.footer-container li:hover{
+#facebook:hover{
     color: #516fad;
+}
+#twitter:hover{
+    color: #7391ce;
+}
+#behance:hover{
+    color: #828d22;
+}
+#youtube:hover{
+    color: #993333;
 }
 
 .footer-container li i{
