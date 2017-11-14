@@ -35,14 +35,13 @@ nav li{
     align-items: center;
     justify-content: center;
     transition: all 0.45s ease;
-    box-sizing: border-box;
-    
+    box-sizing: content-box;
 }
 
 nav li:hover{
     color: #58c93a;
     border-bottom: solid 5px #58c93a;
-    border-top: solid 5px transparent;
+    /* border-top: solid 5px transparent; */
     background: #222222;
     
 }
@@ -59,4 +58,61 @@ a{
 
 nav a:first-letter {
     text-transform: uppercase;
+}
+/* 
+nav button{
+    display: none;
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    color: white;
+    border: none;
+}
+
+nav button:hover{
+    background: #3d3d3d;
+} */
+
+.dropbtn {
+    background-color: #1d1d1d;
+    color: white;
+    padding: 16px;
+    font-size: 40px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.dropdown {
+    display: flex;
+    align-self: center;
+    position: relative;
+    display: none;
+    transition: all 1s ease;    
+}
+
+.dropdown-content {
+    position: absolute;
+    background-color: #1d1d1d;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-family: Lato-Bold;        
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #2c2b2b}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3d3d3d;
 }
