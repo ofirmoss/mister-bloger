@@ -28,7 +28,7 @@ nav li{
     text-align: center;
     width: 100%;
     height: 100%;
-    border: solid 1px #1d1d1d;
+    border-left: solid 1px #1d1d1d;
     border-collapse: collapse;
     cursor: pointer;    
     display: flex;
@@ -36,6 +36,10 @@ nav li{
     justify-content: center;
     transition: all 0.45s ease;
     box-sizing: content-box;
+}
+
+#lastNavBar{
+    border-right: solid 1px #1d1d1d;
 }
 
 nav li:hover{
