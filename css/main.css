@@ -37,6 +37,10 @@ section{
 
 
 @media (max-width: 740px){
+    .article {
+        padding: 10px;
+    }
+
     .page-container{
         max-width:  740px;
         margin: 0 auto;
@@ -52,7 +56,8 @@ section{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        min-height: 780px;
+        justify-content: space-between;
+        min-height: 550px;
         margin-bottom: 0px;
         /* width: 500px;         */
     }
