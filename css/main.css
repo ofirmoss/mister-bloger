@@ -145,6 +145,10 @@ section {
         display: none;
     }
 
+    .popup input{
+        width: 270px;
+    }
+
     }
     @media (max-width: 1000px) and (min-width: 740px) {
         .page-container {
