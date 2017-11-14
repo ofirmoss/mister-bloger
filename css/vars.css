@@ -1,4 +1,5 @@
 :root{
     --container-width: 980px;
+    --container-width-responsive: 700px;
     --nav-background-color: #292929;
 }
