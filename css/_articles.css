@@ -71,7 +71,7 @@
 .details button:hover::after {
     content: '→';
     color: #58c93a;
-    margin-left: 10px;
+    /* margin-left: 10px; */
 }
 
 .details button img {

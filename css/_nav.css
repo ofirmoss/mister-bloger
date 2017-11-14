@@ -92,16 +92,17 @@ nav button:hover{
     align-self: center;
     position: relative;
     display: none;
-    transition: all 1s ease;    
 }
 
 .dropdown-content {
+    display: block;
     position: absolute;
     background-color: #1d1d1d;
-    min-width: 160px;
+    width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    font-family: Lato-Bold;        
+    font-family: Lato-Bold; 
+    transition: all 1s ease; 
 }
 
 .dropdown-content a {
@@ -109,12 +110,15 @@ nav button:hover{
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    width: 20px;     
 }
 
 .dropdown-content a:hover {background-color: #2c2b2b}
 
+
 .dropdown:hover .dropdown-content {
-    display: block;
+    display: block;    
+    width: 160px;
 }
 
 .dropdown:hover .dropbtn {
