@@ -5,6 +5,7 @@
     flex-flow: row wrap;
     border: solid 1px #e1e0e0;
     border-top: none;    
+    margin-bottom: -6px;
 }
 
 .article {
